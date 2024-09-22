@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
-
 <body>
     <!-- Language Selector -->
     <div class="language-selector">
@@ -24,19 +23,20 @@
                 <li><a href="#home" id="nav-home">Главная</a></li>
                 <li><a href="#about" id="nav-about">О продукте</a></li>
                 <li><a href="#how-it-works" id="nav-how">Как это работает</a></li>
+                <li><a href="#app" id="nav-app">Приложение</a></li>
                 <li><a href="#store" id="nav-store">Магазин</a></li>
                 <li><a href="#contact" id="nav-contact">Контакты</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- 3D Model Section -->
+    <!-- Main Section with 3D Model -->
     <section id="home" class="main-section">
         <div class="product-display">
-            <h2 class="main-heading">XY Glove — Восстановление мелкой моторики</h2>
-            <p class="main-subheading">Инновационная перчатка для детей с особыми потребностями. Возвращает контроль над движениями через мобильное приложение.</p>
-
-            <!-- Display 3D Model or Image -->
+            <h2 class="main-heading" id="main-heading">XY Glove — Восстановление мелкой моторики</h2>
+            <p class="main-subheading" id="main-subheading">
+                Инновационная перчатка для детей с особыми потребностями, возвращает контроль через мобильное приложение.
+            </p>
             <img src="assets/xy-glove-3d.jpg" alt="XY Glove 3D Model" class="product-3d">
         </div>
 
@@ -68,39 +68,31 @@
         </div>
     </section>
 
-    <!-- About Us Section -->
-    <section id="about-us" class="section about-us">
-        <h2 id="about-us-title">Команда Unicorns</h2>
-        <p id="about-us-desc">Мы — команда Unicorns, учащиеся Bilim-Innovation Lyceum for Gifted Girls...</p>
+    <!-- Приложение XY Glove -->
+    <section id="app" class="section app">
+        <h2 id="app-title">Приложение XY Glove — Ваш помощник в управлении перчаткой</h2>
+        <p id="app-desc">
+            Приложение XY Glove позволяет пользователям контролировать работу перчатки и персонализировать упражнения в зависимости от уровня моторики ребенка.
+            Оно создано для того, чтобы сделать процесс реабилитации простым, увлекательным и адаптированным к каждому пользователю.
+        </p>
 
-        <div class="team-members">
-            <!-- Амина -->
-            <div class="member">
-                <img src="assets/amina-photo.jpg" alt="Амина" class="member-photo">
-                <h3 class="member-name">Амина</h3>
-                <p class="member-role">Лидер команды и технический директор</p>
-            </div>
+        <h3>Основные функции приложения:</h3>
+        <ul>
+            <li>Управление стимуляцией: Через приложение можно настраивать интенсивность импульсов для перчатки.</li>
+            <li>Цветовой интерфейс: Простой и удобный цветовой круг для легкого выбора настроек.</li>
+            <li>Упражнения по уровням: Программа тренировок для разных уровней моторики.</li>
+            <li>Интерактивное рисование: Позволяет детям развивать креативные способности.</li>
+            <li>Отслеживание прогресса: Данные о выполненных упражнениях и результатах.</li>
+        </ul>
 
-            <!-- Дания -->
-            <div class="member">
-                <img src="assets/daniya-photo.jpg" alt="Дания" class="member-photo">
-                <h3 class="member-name">Дания</h3>
-                <p class="member-role">Специалист по дизайну и интерфейсу</p>
-            </div>
+        <div class="app-screenshots">
+            <img src="assets/app-screenshot1.png" alt="Скриншот интерфейса приложения" class="screenshot">
+            <img src="assets/app-screenshot2.png" alt="Интерфейс приложения XY Glove" class="screenshot">
+        </div>
 
-            <!-- Жибек -->
-            <div class="member">
-                <img src="assets/zhibek-photo.jpg" alt="Жибек" class="member-photo">
-                <h3 class="member-name">Жибек</h3>
-                <p class="member-role">Исследователь и маркетинг</p>
-            </div>
-
-            <!-- Мерей -->
-            <div class="member">
-                <img src="assets/merey-photo.jpg" alt="Мерей" class="member-photo">
-                <h3 class="member-name">Мерей</h3>
-                <p class="member-role">Контент и коммуникации</p>
-            </div>
+        <div class="cta-buttons">
+            <a href="https://play.google.com/store/apps" class="cta-btn">Google Play</a>
+            <a href="https://apps.apple.com" class="cta-btn">App Store</a>
         </div>
     </section>
 
